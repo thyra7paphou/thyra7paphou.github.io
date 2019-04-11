@@ -1,1 +1,1 @@
-# thyra7paphou.github.io
+# http://thyra7paphou.github.io/index.html
