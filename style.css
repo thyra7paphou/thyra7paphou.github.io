@@ -1,0 +1,210 @@
+/*GATE 7 PAPHOS LOGO */
+.picture-logo{
+    position: fixed;
+    background-image:url(https://imgur.com/dg05p4U.png);
+    background-size:200px;
+    width: 200px;
+    height: 200px;
+    top:-50px;
+    left:-10px;
+    z-index:1;  
+    display: block;
+}
+
+.picture-logo2{
+    position: fixed;
+    background-image:url(https://imgur.com/dg05p4U.png);
+    background-size:200px;
+    width: 200px;
+    height: 200px;
+    top:-50px;
+    right:-10px;
+    z-index:1;  
+    display: block;
+}
+
+/* Header Title */
+.header {
+    position: fixed;
+    top:4px;
+    right:45%;
+    font-size: 10px;
+    display:block;
+    color: red;
+    z-index: 1;
+}
+.first p{
+    font-family: "Roboto", Times, sans-serif;
+    position: relative;
+    font-size:30px;
+    color:white;
+}
+
+.second p{
+    font-family: "Roboto", Times, sans-serif;
+    position: relative;
+    font-size:30px;
+    color:white
+}
+.third p{
+    font-family: "Roboto", Times, sans-serif;
+    position: relative;
+    font-size:30px;
+    color:white
+}
+
+.fourth p{
+    font-family: "Roboto", Times, sans-serif;
+    position: relative;
+    font-size:30px;
+    color:white
+}
+
+.bodyo{
+    position: relative;
+    color: white;  
+}
+
+.bodyo2{
+    position: relative;
+    color: white;  
+}
+
+/*RED HEADER PAGE BELOW */
+body {
+    width :100%;
+    height: 20%;
+    margin-top: 120px;
+    padding:0;
+    background : red;
+    text-align:center;
+    font-family: Quicksand;
+    font-family: "Sans-serif",sans-serif,arial;
+    padding: 0;
+    color: #fff; 
+}
+
+/* WHITE HEADER ABOVE */
+.one {
+    background: white;
+    position:fixed;
+    width: 100%;
+    height:  325px;
+    display:block;
+    top:-250px;
+    overflow: hidden;
+    transform: translate(-0%);
+    object-position: 50% 50%;
+    z-index: 0;
+    margin-left: -10px;
+    margin-right:-10px;
+    margin-top:-10px;   
+}
+
+section {
+  padding: 20vh 0;
+    z-index:0;
+}
+
+/*GRID IMAGE BOX CSS CODES BELOW */
+
+figure {
+  display:inline-block;
+  vertical-align:top;
+  border:solid gray;
+  text-align:center;
+  position:relative;
+  padding-bottom:2.8em;
+  border-radius: 5%;
+  border:50px;
+}
+
+figure img {
+    display:block;
+    border-radius: 5%;
+    width: 300px;
+    height: 170px;
+    font-family: "roboto";    
+}
+
+figure img:hover{
+    width: 305px;
+    height: 175px;
+}
+
+gridimg2 {
+    display: grid;
+    min-width:560px;
+    max-width:840px;
+    margin:auto;
+    grid:5px;
+}
+
+
+#gridimg2 figure {
+  padding:0px;   
+}
+
+#gridimg2 figure:hover figcaption {
+  opacity:0;
+}
+
+.function{
+    position: fixed;
+    z-index: :1;
+}
+
+form{
+    position: fixed;
+    top:10px;
+    left: 50%;
+    transform: translate(-50%);
+    transition: all 1s;
+    width: 500px;
+    height: 50px;
+    background: white;
+    box-sizing: border-box;
+    border-radius: 25px;
+    border: 4px solid white;
+    padding: 5px;
+    display:inline-block;
+    z-index:1
+}
+
+input{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 42.5px;
+    line-height: 30px;
+    outline: 0;
+    border: 0;
+    display: none;
+    font-size: 1em;
+    border-radius: 20px;
+    padding: 0 20px;
+    z-index:1;
+}
+
+.fa{
+    box-sizing: border-box;
+    padding: 10px;
+    width: 42.5px;
+    height: 42.5px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    border-radius: 50%;
+    color: #07051a;
+    text-align: center;
+    font-size: 1.2em;
+    transition: all 1s;
+    z-index:1;
+}
+
+html {
+   
+    font-size: 12px;
+    text-align: center; 
+}
